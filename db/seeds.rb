@@ -7,6 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 require 'faker'
 
+User.destroy_all
+Event.destroy_all
 
 t1 = Time.parse("2020-11-01 14:40:34")
 t2 = Time.parse("2022-01-01 00:00:00")
